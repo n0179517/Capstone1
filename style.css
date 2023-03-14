@@ -1,5 +1,5 @@
 body{
-    background-color: #99582a;
+    background-color: #588157;
 }
 
 .container {
@@ -9,20 +9,25 @@ body{
     margin: 0;
     padding: 1em 1em 1em 1em;
     max-width: 100vw;
-    background-color: #6f1d1b;
+    background-color: #344E41;
 }
 
 .content{
-    margin: 4em 1em 0 1em;
-    color: #ffe6a7
+    margin: 2em 1em 0 1em;
+    color: #DAD7CD
 }
 
 footer{
-    margin: 1em;
+    background-color: #3A5A40;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10em;
+    padding-top: 1em;
 }
 
 h1{
-    color: #ffe6a7;
+    color: #DAD7CD;
 }
 
 ul {
@@ -34,7 +39,7 @@ ul {
 
 li{
     padding-right: 1em;
-    color: #ffe6a7;
+    color: #DAD7CD;
 }
 
 
