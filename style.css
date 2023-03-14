@@ -1,0 +1,42 @@
+body{
+    background-color: #99582a;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1em 1em 1em 1em;
+    max-width: 100vw;
+    background-color: #6f1d1b;
+}
+
+.content{
+    margin: 4em 1em 0 1em;
+    color: #ffe6a7
+}
+
+footer{
+    margin: 1em;
+}
+
+h1{
+    color: #ffe6a7;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: .25em 0 .25em 0;
+}
+
+li{
+    padding-right: 1em;
+    color: #ffe6a7;
+}
+
+
+
+
