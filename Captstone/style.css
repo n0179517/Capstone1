@@ -1,0 +1,96 @@
+body{
+    background-color:white;;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height: 500px;
+    background: url("images/ciderFlight.jpg");
+    background-size: cover;
+}
+
+
+.content{
+    margin: 2em 3em 0 3em;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    margin:0;
+    padding:0;
+}
+ .ciderInfo{
+    max-width: 60%;
+    margin: 0 1em 0 3em;
+}
+
+.storeInfo{
+    max-width: 40%;
+    margin: 0 3em 0 1em;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #3A5A40;
+     width: 100%;
+    padding-top: 1em;
+}
+
+h1{
+    color: white;
+    align-self: flex-end;
+    margin: 0 0 -.08em .25em;
+    font-size: 4.5em;
+    line-height: 1;
+    font-weight: bold;
+    
+}
+
+h2{
+    color:black;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
+
+.finePrint{
+    font-size:x-small;
+    margin-top: 5em;
+    color: #DAD7CD;
+}
+
+@media (max-width: 450px) {
+    h1 {
+      font-size: 3em !important;
+      line-height: 80%;
+      margin-top: 10px;
+    }
+
+    .content{
+        display: block;
+        margin: .1em;
+    }
+    
+    .storeInfo, .ciderInfo{
+        margin: 0 1em 0 4em;
+    }
+
+    .container{
+        background-size:cover;
+        height: 250px;
+    }
+
+
+
+}
+
+
+
