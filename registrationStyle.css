@@ -2,6 +2,7 @@
 body{
     background-color: whitesmoke;
     font-family: 'Poppins', sans-serif;
+
 }
 
 footer{
@@ -25,6 +26,7 @@ form{
     margin-right: auto;
     width: 60%;
     background-color: white;
+    max-width: 1144px;
 }
 
 
